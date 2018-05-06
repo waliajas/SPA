@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="start_date" label="Start date" language="en" table="x_snc_cloudevents_events">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>start_date</element>
+            <help/>
+            <hint/>
+            <label>Start date</label>
+            <language>en</language>
+            <name>x_snc_cloudevents_events</name>
+            <plural>Start dates</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-31 20:31:38</sys_created_on>
+            <sys_id>34d28fb0610813007f44e59882b97a1f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Start date</sys_name>
+            <sys_package display_value="Cloud Dimensions Events" source="x_snc_cloudevents">77108b70610813007f44e59882b97a67</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Cloud Dimensions Events">77108b70610813007f44e59882b97a67</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_cloudevents_events_start_date_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-31 20:31:38</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

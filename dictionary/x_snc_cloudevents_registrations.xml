@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Registrations" max_length="40" name="x_snc_cloudevents_registrations" type="collection">
+        <element label="Comments" max_length="1000" name="comments" type="string"/>
+        <element label="Company" max_length="40" name="company" type="string"/>
+        <element label="Email" max_length="100" name="email" type="string"/>
+        <element label="Event" max_length="32" name="event" reference="x_snc_cloudevents_events" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element display="true" label="First name" max_length="40" name="first_name" type="string"/>
+        <element label="Last name" max_length="40" name="last_name" type="string"/>
+        <element choice="3" default="pending" label="State" max_length="40" name="state" type="choice">
+            <choice>
+                <element label="Pending" sequence="10" value="pending"/>
+                <element label="Accepted" sequence="20" value="accepted"/>
+                <element label="Declined" sequence="30" value="declined"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="event"/>
+        </index>
+    </element>
+</database>
